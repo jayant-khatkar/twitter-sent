@@ -52,15 +52,3 @@ it will print on screen the perofrmance of the model on the test data
 2. the the prediction attribute function to be the structure of the new model
 3. if different hyperparameters are used, change them in the load_hyperparameters attribute
 4. change the name of the class and the model.name attribute
-
----
-
-improvements needed:
-- change train_new.py and the model files so that hyperparameters is a dict not a list (so that order does not matter and the hyperparameter  name is listed)
-- change train_new so that the model is an arguement of the function, not a line to change within it
-- could probably be more modular in general
-- be able to change hyperparameters/model choice from the commandline, instead of changing a line in the file
-
-
-NOTE: the older models had a different method of saving the model so use resotrer_old(), but any newer models should only need restorer()
----
